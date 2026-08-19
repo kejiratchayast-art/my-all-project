@@ -1,41 +1,44 @@
 # E-commerce Data Warehouse
 
-A data engineering project using Snowflake and SQL to build and analyze an e-commerce data warehouse.
+A data engineering project using Snowflake and SQL to build, transform, and analyze an e-commerce data warehouse.
+
+## Project Overview
+
+This project demonstrates a basic end-to-end data engineering workflow using Snowflake and SQL.
+
+The project covers database setup, raw data ingestion, data transformation, customer and order analysis, revenue analysis, product category analysis, and business dashboard queries.
+
+## Objective
+
+- Build an e-commerce data warehouse using Snowflake
+- Load and organize raw customer and order data
+- Transform raw data into clean analytical data
+- Analyze customer and order behavior
+- Calculate revenue and sales performance
+- Create SQL queries for business reporting and dashboards
 
 ## Technologies
 
 - Snowflake
 - SQL
 
-## Project Workflow
+## Data Warehouse Workflow
 
-1. Database and schema setup
-2. Table creation
-3. Raw data ingestion
-4. Data transformation
-5. Customer and order analysis
-6. Revenue analysis
-7. Product and category analysis
-8. Business dashboard queries
-
-## Analysis
-
-The project includes analysis of:
-
-- Customer purchasing behavior
-- Revenue by customer
-- Revenue by product
-- Revenue by country
-- Revenue by category
-- Daily revenue
-- Top-selling products
-- Average order value
-- Customer segmentation
-
-## Key Skills
-
-- SQL
-- Data Warehousing
-- Data Transformation
-- Data Analysis
-- Snowflake
+```text
+Raw Data
+   ↓
+Database & Schema Setup
+   ↓
+Table Creation
+   ↓
+Data Loading
+   ↓
+Data Transformation
+   ↓
+Customer & Order Analysis
+   ↓
+Revenue Analysis
+   ↓
+Product Category Analysis
+   ↓
+Business Dashboard Queries
