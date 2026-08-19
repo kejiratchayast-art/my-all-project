@@ -1,6 +1,7 @@
 # E-commerce Data Warehouse
 
 A data engineering project using Snowflake and SQL to build, transform, and analyze an e-commerce data warehouse.
+![E-commerce Data Warehouse Overview](ecommerce_data_warehouse_overview.png)
 
 ## Project Overview
 
