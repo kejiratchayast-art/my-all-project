@@ -18,6 +18,17 @@ The project covers database setup, raw data ingestion, data transformation, cust
 - Calculate revenue and sales performance
 - Create SQL queries for business reporting and dashboards
 
+  ## Key Business Insights
+
+Based on the sample e-commerce dataset:
+
+- Total Revenue: 99,750 THB
+- Average Order Value: 6,650 THB
+- Highest Order Value: 35,000 THB
+- Lowest Order Value: 450 THB
+- Top Category by Revenue: Electronics
+- Electronics generated 83.3% of total revenue
+
 ## Technologies
 
 - Snowflake
