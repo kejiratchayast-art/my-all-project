@@ -25,9 +25,9 @@ Based on the sample e-commerce dataset:
 - Total Revenue: 99,750 THB
 - Average Order Value: 6,650 THB
 - Highest Order Value: 35,000 THB
-- Lowest Order Value: 450 THB
+- Lowest Order Value: 1,200 THB
 - Top Category by Revenue: Electronics
-- Electronics generated 83.3% of total revenue
+- Electronics generated 83.4% of total revenue
 
 ## Technologies
 
