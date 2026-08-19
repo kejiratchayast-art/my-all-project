@@ -36,11 +36,4 @@ B2B lead generation solution for a car subscription service.
 - Excel
 - Machine Learning
 - Cybersecurity
-
-## About Me
-
-I am a Digital Science & Technology student interested in
-Data Engineering, Data Science, and AI.
-
-I am continuously developing my technical skills through
-academic projects, self-learning, and hands-on practice.
+.
