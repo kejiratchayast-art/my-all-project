@@ -1,0 +1,9 @@
+SHOW TABLES IN SCHEMA ECOMMERCE_DB.RAW;
+
+CREATE TABLE ECOMMERCE_DB.RAW.CUSTOMERS (
+    customer_id INTEGER,
+    customer_name VARCHAR,
+    email VARCHAR,
+    country VARCHAR
+);
+

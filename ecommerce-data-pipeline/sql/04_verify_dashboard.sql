@@ -1,0 +1,21 @@
+-- Verify Dashboard Data
+
+USE DATABASE ECOMMERCE_DB;
+USE SCHEMA ANALYTICS;
+
+
+-- 1. Verify Customer Dashboard
+SELECT *
+FROM DASHBOARD_CUSTOMER
+ORDER BY TOTAL_SPENT DESC;
+
+
+-- 2. Verify Product Dashboard
+SELECT *
+FROM DASHBOARD_PRODUCT
+ORDER BY TOTAL_REVENUE DESC;
+
+
+-- 3. Verify Sales Dashboard
+SELECT *
+FROM DASHBOARD_SALES;

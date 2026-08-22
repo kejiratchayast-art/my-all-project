@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-commerce Data Pipeline
 
 An end-to-end data pipeline built with Python, SQL, and Snowflake to transform raw e-commerce sales data into analytics-ready and dashboard-ready datasets.
@@ -155,3 +156,44 @@ Duplicate order-product records were detected during data-quality validation.
 **Jiratchaya Keawdee**
 
 Data Science & AI Student
+=======
+# My All Project
+Welcome to my project portfolio.
+
+This repository contains my academic projects, data science projects,
+data engineering projects, cybersecurity projects, and other technical work.
+
+## Projects
+
+### 1. E-commerce Data Warehouse
+A data engineering project using Snowflake and SQL.
+
+- Database and schema setup
+- Raw data ingestion
+- Data transformation
+- Customer and order analysis
+- Revenue analysis
+- Product and category analysis
+- Business dashboard queries
+
+### 2. Cybersecurity – OWASP ZAP
+A cybersecurity project exploring web application security testing
+using OWASP ZAP.
+
+### 3. Eazy Car
+A business and technology project focusing on an AI-powered
+B2B lead generation solution for a car subscription service.
+
+## Skills
+
+- SQL
+- Python
+- Data Engineering
+- Data Science
+- Snowflake
+- Power BI
+- Excel
+- Machine Learning
+- Cybersecurity
+.
+>>>>>>> 235f9786bc928d99beecee3af72c23ea915c3dd6
