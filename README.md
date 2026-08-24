@@ -1,4 +1,4 @@
-# E-Commerce Data Engineering 
+# E-Commerce Data Engineering Portfolio
 
 A collection of data engineering projects focused on building
 end-to-end data pipelines, data warehouses, analytics layers,
@@ -11,7 +11,7 @@ and business-ready datasets.
 ### 1. Automated E-Commerce ETL Pipeline
 
 An automated end-to-end ETL pipeline built with Python and Snowflake
-to process and validate e-commerce sales data.
+to process, transform, validate, and load e-commerce sales data.
 
 #### Pipeline Architecture
 
@@ -70,7 +70,8 @@ Uses `run_pipeline.py` to execute the complete ETL workflow automatically.
 
 #### Validation Result
 
-The pipeline was tested successfully from extraction through Snowflake loading.
+The pipeline was successfully tested from extraction
+through Snowflake loading.
 
 ```text
 Connected to Snowflake!
@@ -113,8 +114,8 @@ ecommerce-data-pipeline/
 ### 2. E-Commerce Data Warehouse
 
 A SQL-based e-commerce data warehouse project covering
-data modeling, data transformation, analytics, and
-business intelligence.
+data modeling, data transformation, analytics,
+and business intelligence.
 
 #### Tech Stack
 
@@ -123,28 +124,24 @@ business intelligence.
 - Data Warehouse
 - Power BI
 
-#### Analytics
+#### Data Warehouse Architecture
 
-- Customer order analysis
-- Revenue analysis
-- Product category analysis
-- Business dashboard
-- Analysis-ready datasets
+```text
+Snowflake
+│
+├── RAW
+│   └── SALES
+│
+├── ANALYTICS
+│   ├── Customer Analysis
+│   ├── Revenue Analysis
+│   └── Product Analysis
+│
+└── DASHBOARD
+    └── Business-ready Dataset
+```
 
-#### Skills Demonstrated
-
-- ETL / ELT Pipelines
-- Data Warehousing
-- SQL
-- Python
-- Snowflake
-- Data Quality Validation
-- Data Transformation
-- Analytics
-- Business Intelligence
-- Git / GitHub
-
-### Data Flow
+#### Data Flow
 
 ```text
 E-Commerce Sales Data
@@ -178,29 +175,87 @@ Analytics   Dashboard
        Power BI
 ```
 
-### Snowflake Architecture
+#### Analytics
+
+- Customer order analysis
+- Revenue analysis
+- Product category analysis
+- Business dashboard
+- Analysis-ready datasets
+
+#### SQL Analytics
+
+The project includes SQL analysis for:
+
+- Customer purchasing behavior
+- Revenue performance
+- Product category performance
+- Business reporting
+- Dashboard-ready datasets
+
+#### Project Structure
 
 ```text
-Snowflake
+E-commerce-Data-Warehouse/
 │
-├── RAW
-│   └── SALES
-│
-├── ANALYTICS
-│   ├── Customer Analysis
-│   ├── Revenue Analysis
-│   └── Product Analysis
-│
-└── DASHBOARD
-    └── Business-ready Dataset
+├── 01_database_setup.sql
+├── 02_create_tables.sql
+├── 03_load_data.sql
+├── 04_transform_data.sql
+├── 05_analytics.sql
+├── 06_create_orders.sql
+├── 07_load_orders.sql
+├── 08_customer_order_analysis.sql
+├── 09_revenue_analysis.sql
+├── 10_product_category_analysis.sql
+└── 11_business_dashboard.sql
 ```
+
+---
 
 ## Key Skills Demonstrated
 
 - Built an automated end-to-end ETL pipeline using Python
-- Implemented data cleaning and validation
+- Implemented data extraction, transformation, and validation
 - Loaded validated data into Snowflake
-- Created SQL analytics and dashboard data layers
+- Designed SQL-based data warehouse structures
+- Created analytics and dashboard data layers
+- Developed customer, revenue, and product analysis
 - Designed analysis-ready datasets for business intelligence
-- Added pipeline failure handling
+- Implemented pipeline failure handling
+- Worked with Python, Pandas, SQL, and Snowflake
 - Used Git and GitHub for version control
+
+---
+
+## Tools & Technologies
+
+```text
+Python
+Pandas
+SQL
+Snowflake
+Power BI
+Git
+GitHub
+Data Warehousing
+ETL / ELT
+Data Quality Validation
+Business Intelligence
+```
+
+---
+
+## Portfolio Highlights
+
+This portfolio demonstrates practical experience in:
+
+- End-to-end ETL pipeline development
+- Data transformation and cleaning
+- Data quality validation
+- Cloud data warehousing
+- SQL analytics
+- Business intelligence
+- Dashboard-ready data preparation
+- Automation
+- Version control
