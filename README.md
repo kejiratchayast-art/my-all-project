@@ -143,3 +143,64 @@ business intelligence.
 - Analytics
 - Business Intelligence
 - Git / GitHub
+
+### Data Flow
+
+```text
+E-Commerce Sales Data
+        │
+        ▼
+     Raw CSV
+        │
+        ▼
+     EXTRACT
+  Python / Pandas
+        │
+        ▼
+    TRANSFORM
+Cleaning & Formatting
+        │
+        ▼
+     VALIDATE
+ Data Quality Checks
+        │
+        ▼
+      LOAD
+    Snowflake
+        │
+   ┌────┴────┐
+   ▼         ▼
+Analytics   Dashboard
+  Layer        Data
+   │            │
+   └──────┬─────┘
+          ▼
+       Power BI
+```
+
+### Snowflake Architecture
+
+```text
+Snowflake
+│
+├── RAW
+│   └── SALES
+│
+├── ANALYTICS
+│   ├── Customer Analysis
+│   ├── Revenue Analysis
+│   └── Product Analysis
+│
+└── DASHBOARD
+    └── Business-ready Dataset
+```
+
+## Key Skills Demonstrated
+
+- Built an automated end-to-end ETL pipeline using Python
+- Implemented data cleaning and validation
+- Loaded validated data into Snowflake
+- Created SQL analytics and dashboard data layers
+- Designed analysis-ready datasets for business intelligence
+- Added pipeline failure handling
+- Used Git and GitHub for version control
