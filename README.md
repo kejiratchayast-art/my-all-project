@@ -1,4 +1,4 @@
-# E-Commerce Data Engineering Portfolio
+# E-Commerce Data Engineering 
 
 A collection of data engineering projects focused on building
 end-to-end data pipelines, data warehouses, analytics layers,
