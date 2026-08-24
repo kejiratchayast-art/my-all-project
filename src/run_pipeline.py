@@ -4,8 +4,8 @@ import sys
 steps = [
     "extract.py",
     "transform.py",
-    "load.py",
-    "validate.py"
+    "validate.py",
+    "load.py"
 ]
 
 for step in steps:
